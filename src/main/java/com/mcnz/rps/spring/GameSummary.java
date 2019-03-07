@@ -33,6 +33,7 @@ public class GameSummary {
 		super();
 		this.clientGesture = clientGesture;
 		this.serverGesture = serverGesture;
+		// New comment
 	}
 	
 	public Long getId() {
