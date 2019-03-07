@@ -27,7 +27,6 @@ public class GameSummaryRepository {
 
 	public long insert(GameSummary gs) {
 		entityManager.persist(gs);
-		;
 		return gs.getId();
 	}
 
